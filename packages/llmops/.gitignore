@@ -1,0 +1,10 @@
+.env
+finetune_dataset/*.csv
+finetune_dataset/*.json
+finetune_dataset/*.jsonl
+*__pycache__*
+*.pyc
+
+logs/
+final_model/
+Artifacts/
