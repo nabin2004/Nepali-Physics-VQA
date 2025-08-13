@@ -1,5 +1,9 @@
 import sys 
-from llmops.logging.logger import logging
+# from llmops.llmops.logging.logger import logging
+# from llmops.logging import logger
+# from llmops.logging import logger
+from llmops.logging import logger
+
 
 class LLMOpsException(Exception):
     def __init__(self, error_message, error_details:sys):
@@ -14,7 +18,7 @@ class LLMOpsException(Exception):
 
 if __name__ == "__main__":
     try:
-        logging.logging.info("Enterd the try block")
+        logger.logging.info("Fine-tuning started")
         a = 1/0
         print("This will not be printed", a)
     except Exception as e:
