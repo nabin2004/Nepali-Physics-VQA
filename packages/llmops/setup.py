@@ -22,10 +22,10 @@ def get_requirements() -> List[str]:
     return requirement_list
 
 setup(
-    name="NetSecMLOps",
+    name="GemmaLLMOps",
     version="0.0.1",
-    author="Nabin Oli",
-    author_email="nabinoli2004@gmail.com",
+    author="",
+    author_email="",
     packages=find_packages(),
     install_requires=get_requirements()
 )
