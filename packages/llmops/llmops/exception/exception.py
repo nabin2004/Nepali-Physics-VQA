@@ -1,12 +1,8 @@
 import sys 
-# from llmops.llmops.logging.logger import logging
-# from llmops.logging import logger
-# from llmops.logging import logger
 from llmops.logging import logger
 
-
 class LLMOpsException(Exception):
-    def __init__(self, error_message, error_details:sys):
+    def __init__(self, error_message, error_details: sys):
         self.error_message = error_message 
         _,_,exc_tb = error_details.exc_info()
 
